@@ -2,7 +2,7 @@ library(scrapeR)
 library(plyr)
 library(reshape2)
 
-setwd("/home/susan/Dropbox/GraphicsGroup/Craigslist/")
+setwd("/home/susan/Documents/R Projects/Craigslist")
 url <- "http://www.craigslist.org/about/sites"
 
 cities <- scrape(url)[[1]]

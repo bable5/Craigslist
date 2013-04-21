@@ -34,14 +34,14 @@ Loading required package: bitops
 > url <- "http://www.craigslist.org/about/sites"
 > 
 > cities <- scrape(url)[[1]]
-> regions <- getNodeSet(cities, '//*[@id="index"]/div[@class="colmask"]')
+> regions <- getNodeSet(cities, '//*[@class="body"]/div[@class="colmask"]')
 > 
-> getRegionInfo <- function(i){
-+   region.name = xmlAttrs(xmlChildren(xmlChildren(regions[[i]])$h1)$a)
-+   state.names = xpathApply(regions[[i]], path=paste('//*[@id="index"]/div[@class="colmask"][', i, ']/div/div/div/div/div[@class="state_delimiter"]', sep=""), xmlValue)
-+   state.subs = xpathApply(regions[[i]], path=paste('//*[@id="index"]/div[@class="colmask"][', i, ']/div/div/div/div/ul', sep=""), xmlChildren)
-+   cl.urls = as.character(unlist(xpathApply(regions[[i]], path=paste('//*[@id="index"]/div[@class="colmask"][', i, ']/div/div/div/div/ul/li/a', sep=""), xmlAttrs)))
-+   cl.names = as.character(unlist(xpathApply(regions[[i]], path=paste('//*[@id="index"]/div[@class="colmask"][', i, ']/div/div/div/div/ul/li', sep=""), xmlValue)))
+> getRegionInfo <- function(i, regions=regions){
++   region.name = xmlAttrs(xmlChildren(regions[[i]])$a, "name")
++   state.names = xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/h4', sep=""), xmlValue)
++   state.subs = xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/ul', sep=""), xmlChildren)
++   cl.urls = as.character(unlist(xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/ul/li/a', sep=""), xmlAttrs)))
++   cl.names = as.character(unlist(xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/ul/li', sep=""), xmlValue)))
 +   df <- do.call("rbind", lapply(1:length(state.names), function(j){
 +     cl.name = sapply(state.subs[[j]], xmlValue)
 +     reps = sum(names(cl.name)=="li")
@@ -53,7 +53,7 @@ Loading required package: bitops
 + }
 > 
 > craigslistURLs <- do.call("rbind", lapply(1:length(regions), getRegionInfo))
-Error in UseMethod("xmlChildren") : 
-  no applicable method for 'xmlChildren' applied to an object of class "NULL"
-Calls: do.call ... lapply -> FUN -> xmlAttrs -> xmlChildren -> xmlChildren
+Error in xmlChildren(regions[[i]]) : 
+  promise already under evaluation: recursive default argument reference or earlier problems?
+Calls: do.call -> lapply -> FUN -> xmlAttrs -> xmlChildren
 Execution halted

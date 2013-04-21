@@ -6,14 +6,14 @@ setwd("/home/susan/Documents/R Projects/Craigslist")
 url <- "http://www.craigslist.org/about/sites"
 
 cities <- scrape(url)[[1]]
-regions <- getNodeSet(cities, '//*[@id="index"]/div[@class="colmask"]')
+regions <- getNodeSet(cities, '//*[@class="body"]/h1')
 
-getRegionInfo <- function(i){
-  region.name = xmlAttrs(xmlChildren(xmlChildren(regions[[i]])$h1)$a)
-  state.names = xpathApply(regions[[i]], path=paste('//*[@id="index"]/div[@class="colmask"][', i, ']/div/div/div/div/div[@class="state_delimiter"]', sep=""), xmlValue)
-  state.subs = xpathApply(regions[[i]], path=paste('//*[@id="index"]/div[@class="colmask"][', i, ']/div/div/div/div/ul', sep=""), xmlChildren)
-  cl.urls = as.character(unlist(xpathApply(regions[[i]], path=paste('//*[@id="index"]/div[@class="colmask"][', i, ']/div/div/div/div/ul/li/a', sep=""), xmlAttrs)))
-  cl.names = as.character(unlist(xpathApply(regions[[i]], path=paste('//*[@id="index"]/div[@class="colmask"][', i, ']/div/div/div/div/ul/li', sep=""), xmlValue)))
+getRegionInfo <- function(i, regions=regions){
+  region.name = xmlAttrs(xmlChildren(regions[[i]])$a, "name")
+  state.names = xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/h4', sep=""), xmlValue)
+  state.subs = xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/ul', sep=""), xmlChildren)
+  cl.urls = as.character(unlist(xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/ul/li/a', sep=""), xmlAttrs)))
+  cl.names = as.character(unlist(xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/ul/li', sep=""), xmlValue)))
   df <- do.call("rbind", lapply(1:length(state.names), function(j){
     cl.name = sapply(state.subs[[j]], xmlValue)
     reps = sum(names(cl.name)=="li")
@@ -24,14 +24,13 @@ getRegionInfo <- function(i){
   df
 }
 
-craigslistURLs <- do.call("rbind", lapply(1:length(regions), getRegionInfo))
-
+craigslistURLs <- do.call("rbind", lapply(1:length(regions), getRegionInfo, regions=regions))
 
 parsePost <- function(i){
   linkinfo <- try({
     kids <- xmlChildren(i)
     pagelinkattrs <- data.frame(t(xmlAttrs(i)), stringsAsFactors=FALSE)
-    pagelink <- as.character(xmlAttrs(getNodeSet(i, "*/a")[[1]]))
+    pagelink <- as.character(xmlAttrs(getNodeSet(i, "*/span/a")[[1]]))
     pagelinkclass <- t(data.frame(t(sapply(which(names(kids)=="span"), function(j) unlist(c(xmlAttrs(kids[[j]]), xmlValue(kids[[j]])))[1:2])), row.names=1))
     data.frame(pagelinkattrs, link=pagelink, pagelinkclass, stringsAsFactors=FALSE)
   })
@@ -72,11 +71,12 @@ getCityPosts <- function(city, subcl="mis"){
 
 AllCraigslistURLs <- craigslistURLs
 craigslistURLs <- craigslistURLs[which(craigslistURLs$region%in%c("US", "CA")),]
+source("./StatePop.R")
 
 library(multicore)
 
-samplecities <- sample(1:471, 50, replace=FALSE)
-temp <- getCityPosts(craigslistURLs[1,3], subcl="mis")
+samplecities <- sample(1:nrow(craigslistURLs), 80, replace=FALSE, prob=craigslistURLs$weight)
+temp <- getCityPosts(craigslistURLs[samplecities[1],3], subcl="mis")
 for(i in samplecities[2:length(samplecities)]){
   a <- getCityPosts(craigslistURLs[i,3], subcl="mis")
   if(is.data.frame(a)) temp <- rbind.fill(temp, a)

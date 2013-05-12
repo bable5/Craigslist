@@ -6,42 +6,47 @@ setwd("/home/susan/Documents/R Projects/Craigslist")
 url <- "http://www.craigslist.org/about/sites"
 
 cities <- scrape(url)[[1]]
-regions <- getNodeSet(cities, '//*[@class="body"]/h1')
+regions <- getNodeSet(cities, '//*[@class="body"]/div[@class="colmask"]')
+region.name = sapply(getNodeSet(cities, '//*[@class="body"]/h1/a'), xmlAttrs, "name")
+regionList <- lapply(1:length(regions), function(i) getNodeSet(cities, path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div', sep="")))
 
-getRegionInfo <- function(i, regions=regions){
-  region.name = xmlAttrs(xmlChildren(regions[[i]])$a, "name")
-  state.names = xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/h4', sep=""), xmlValue)
-  state.subs = xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/ul', sep=""), xmlChildren)
-  cl.urls = as.character(unlist(xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/ul/li/a', sep=""), xmlAttrs)))
-  cl.names = as.character(unlist(xpathApply(regions[[i]], path=paste('//*[@id="pagecontainer"]/section/div[@class="colmask"][', i, ']/div/ul/li', sep=""), xmlValue)))
-  df <- do.call("rbind", lapply(1:length(state.names), function(j){
-    cl.name = sapply(state.subs[[j]], xmlValue)
-    reps = sum(names(cl.name)=="li")
-    return(data.frame(state=rep(as.character(state.names[j]), reps), region=rep(as.character(region.name), reps), stringsAsFactors=FALSE))
-  } )) 
-  df$urls <- cl.urls
-  df$names <- cl.names
-  df
+getRegionInfo <- function(states, regions=regions, cities=cities){
+  df2 <- rbind.fill(lapply(states, function(j) {
+    m <- xmlChildren(j)
+    p <- as.character(sapply(m[which(names(m)%in%"h4")], xmlValue))
+    n <- lapply(m[which(names(m)%in%"ul")], xmlChildren)
+    if(length(n)==0) return(data.frame())
+    df <- lapply(n, function(o) as.data.frame(cbind(name = as.character(sapply(o[which(names(o)=="li")], xmlValue)), url = as.character(sapply(o[which(names(o)=="li")], function(k) xmlAttrs(xmlChildren(k)[[1]])))), stringsAsFactors=FALSE))
+    p <- rep(p, sapply(df, function(i) nrow(i)))
+    df <- rbind.fill(df, stringsAsFactors=FALSE)
+    df$state <- p
+    df
+  }))
+  
+  df2
 }
 
-craigslistURLs <- do.call("rbind", lapply(1:length(regions), getRegionInfo, regions=regions))
+craigslistURLs <- lapply(regionList, getRegionInfo)
+region.name <- rep(region.name, sapply(craigslistURLs, nrow))
+craigslistURLs <- rbind.fill(craigslistURLs)
+craigslistURLs$region <- region.name
+craigslistURLs$url[which(craigslistURLs$region=="CA")] <- gsub(".craigslist.ca", "en.craigslist.ca", craigslistURLs$url[which(craigslistURLs$region=="CA")])
 
-parsePost <- function(i){
+parsePost <- function(i, city){
   linkinfo <- try({
     kids <- xmlChildren(i)
     pagelinkattrs <- data.frame(t(xmlAttrs(i)), stringsAsFactors=FALSE)
-    pagelink <- as.character(xmlAttrs(getNodeSet(i, "*/span/a")[[1]]))
+    pagelink <- paste(city, as.character(xmlAttrs(getNodeSet(i, "a[@class='i']")[[1]]))[1], sep="")
     pagelinkclass <- t(data.frame(t(sapply(which(names(kids)=="span"), function(j) unlist(c(xmlAttrs(kids[[j]]), xmlValue(kids[[j]])))[1:2])), row.names=1))
     data.frame(pagelinkattrs, link=pagelink, pagelinkclass, stringsAsFactors=FALSE)
   })
   postinfodata <- try({
-    postinfo <- scrape(pagelink)
-    emailreply <- as.character(lapply(sapply(postinfo, getNodeSet, 
-                  '//*[@id="pagecontainer"]/section/section[@class="dateReplyBar"]/a'), 
-                  xmlValue, FALSE, FALSE))
+    postinfo <- scrape(pagelink, follow=TRUE)
+    emailreply <- xmlValue(sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="dateReplyBar"]/div[@class="returnemail"]')[[1]])
+    #     emailreply <- if(length(emails)>0) as.character(lapply(emails, xmlValue, FALSE, FALSE))
     dateposted <- as.character(lapply(sapply(postinfo, getNodeSet, 
-                  '//*[@id="pagecontainer"]/section/section[@class="dateReplyBar"]/p[@class="postinginfo"]/date'), 
-                  xmlValue, FALSE, FALSE))
+                                             '//*[@id="pagecontainer"]/section/section[@class="dateReplyBar"]/p[@class="postinginfo"]/date'), 
+                                      xmlValue, FALSE, FALSE))
     
     imgs <- sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="userbody"]/figure/div[@id="thumbs"]/a')
     if(length(unlist(imgs))>0)   imglink <- data.frame(do.call("rbind", lapply(imgs, xmlAttrs, FALSE, FALSE)), stringsAsFactors=FALSE) else imglink <- data.frame(NA, NA)  
@@ -51,18 +56,18 @@ parsePost <- function(i){
     id <- strsplit(as.character(lapply(sapply(postinfo, getNodeSet, '//*/div[@class="postinginfos"]/p[@class="postinginfo"][1]'), xmlValue, FALSE, FALSE)), ": ")[[1]][2]
     data.frame(email=emailreply, datetime=dateposted, imglink, postText=text, postTitle=title, postID=id, stringsAsFactors=FALSE)
   })
-  if(is.character(postinfodata) & is.character(linkinfo)) return(NULL) else
+  if(is.character(postinfodata) & is.character(linkinfo)) return(data.frame()) else
     if(is.character(postinfodata) & !is.character(linkinfo)) return(linkinfo) else
       if(!is.character(postinfodata) & is.character(linkinfo)) return(postinfodata) else
         return(cbind(postinfodata, linkinfo))
   return(cbind(postinfodata, linkinfo))
 }
-getCityPosts <- function(city, subcl="mis"){
+getCityPosts <- function(city, subcl=""){
   url <- paste(paste(city, "/", subcl, sep=""), c("/", "/index100.html", "/index200.html"), sep="")
-  site <- try(scrape(url))
+  site <- try(scrape(url, follow=TRUE))
   if(is.character(site)) return(data.frame(city=city, subcl=subcl))
   posts <- unlist(lapply(site, function(i) getNodeSet(i, "//*/p")[1:100]))
-  postdata <- suppressWarnings(rbind.fill(lapply(posts, parsePost), stringsAsFactors=FALSE))
+  postdata <- suppressWarnings(rbind.fill(lapply(posts, parsePost, city), stringsAsFactors=FALSE))
   cbind(city=city, subcl = subcl, postdata)
 }
 
@@ -76,9 +81,9 @@ source("./StatePop.R")
 library(multicore)
 
 samplecities <- sample(1:nrow(craigslistURLs), 80, replace=FALSE, prob=craigslistURLs$weight)
-temp <- getCityPosts(craigslistURLs[samplecities[1],3], subcl="mis")
+temp <- getCityPosts(craigslistURLs[samplecities[1],"url"], subcl="ppp")
 for(i in samplecities[2:length(samplecities)]){
-  a <- getCityPosts(craigslistURLs[i,3], subcl="mis")
+  a <- getCityPosts(craigslistURLs[i,"url"], subcl="ppp")
   if(is.data.frame(a)) temp <- rbind.fill(temp, a)
 }
 

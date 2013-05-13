@@ -125,6 +125,62 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in UseMethod("xmlValue") : 
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in value == defs : 'value' is missing
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in value == defs : 'value' is missing
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in value == defs : 'value' is missing
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in value == defs : 'value' is missing
 Error in value == defs : 'value' is missing
 Error in UseMethod("xmlValue") : 
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
@@ -152,25 +208,13 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in UseMethod("xmlValue") : 
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in value == defs : 'value' is missing
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in value == defs : 'value' is missing
-Error in t.default(xmlAttrs(i)) : argument is not a matrix
-Error in scrape(pagelink, follow = TRUE) : object 'pagelink' not found
-Error in t.default(xmlAttrs(i)) : argument is not a matrix
-Error in scrape(pagelink, follow = TRUE) : object 'pagelink' not found
-Error in t.default(xmlAttrs(i)) : argument is not a matrix
-Error in scrape(pagelink, follow = TRUE) : object 'pagelink' not found
-Error in data.frame(..., check.names = FALSE) : 
-  arguments imply differing number of rows: 1, 0
-Calls: getCityPosts -> cbind -> cbind -> data.frame
-Execution halted
+> 
+> data <- read.csv("./CL-sss.csv", stringsAsFactors=TRUE)
+> data <- rbind.fill(data, temp)
+> data <- unique(data)
+> 
+> write.csv(data, "CL-sss.csv", row.names=FALSE)
+> 
+> proc.time()
+    user   system  elapsed 
+1057.102   10.668 6959.841 

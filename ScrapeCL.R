@@ -33,34 +33,38 @@ craigslistURLs$region <- region.name
 craigslistURLs$url[which(craigslistURLs$region=="CA")] <- gsub(".craigslist.ca", "en.craigslist.ca", craigslistURLs$url[which(craigslistURLs$region=="CA")])
 
 # get link to post
-getpagelink <- function(i, city){try(
-  paste(city, as.character(xmlAttrs(getNodeSet(i, "a[@class='i']")[[1]]))[1], sep=""))
+getpagelink <- function(i, city){as.character(try(
+  paste(city, as.character(xmlAttrs(getNodeSet(i, "a[@class='i']")[[1]]))[1], sep="")))
 }
 # get class attr, value for page link
-getpagelinkclass <- function(kids){try(
-  t(data.frame(t(sapply(
-    which(names(kids)=="span"), 
-    function(j) unlist(c(xmlAttrs(kids[[j]]), 
-                         xmlValue(kids[[j]])))[1:2])), row.names=1))
-  )
+getpagelinkclass <- function(kids){
+  idx <- which(names(kids)=="span")
+  if(length(idx)==0) return(NULL)
+  attrs <- as.character(try(sapply(idx, function(j) unlist(xmlAttrs(kids[[j]])))))
+  values <- as.character(try(sapply(idx, function(j) unlist(xmlValue(kids[[j]])))))
+  t(data.frame(cbind(attrs, values), row.names=1))
 }
 
 # get reply email, if present
-getpostemail <- function(postinfo){try(
-  xmlValue(sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="dateReplyBar"]/div[@class="returnemail"]')[[1]]))
+getpostemail <- function(postinfo){as.character(try(
+  strsplit(gsub("mailto:", "", xmlAttrs(getNodeSet(postinfo[[1]], '//*[@id="pagecontainer"]/section/section[1]/a')[[1]])), "?", fixed=TRUE)[[1]][1]
+  ))
 }
 
 # get post date
-getpostdate <- function(postinfo){try(
+getpostdate <- function(postinfo){as.character(try(
   as.character(lapply(sapply(postinfo, getNodeSet, 
                '//*[@id="pagecontainer"]/section/section[@class="dateReplyBar"]/p[@class="postinginfo"]/date'), 
                       xmlValue, FALSE, FALSE))
-)
+  ))
 }
 
 # get images
 getpostimages <- function(postinfo){
-  try(imgs <- sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="userbody"]/figure/div[@id="thumbs"]/a'))
+  imgs <- NULL
+  try(
+    imgs <- sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="userbody"]/figure/div[@id="thumbs"]/a')
+  )
   try({
   if(length(unlist(imgs))>0){
     imglink <- data.frame(do.call("rbind", 
@@ -75,8 +79,8 @@ return(data.frame(ImageLink=NA, ImageTitle=NA))
 }
 
 # post text
-getposttext <- function(postinfo){try(
-  as.character(lapply(sapply(postinfo, getNodeSet, '//*/section[@id="postingbody"]'), xmlValue, FALSE, FALSE))
+getposttext <- function(postinfo){as.character(try(
+  as.character(lapply(sapply(postinfo, getNodeSet, '//*/section[@id="postingbody"]'), xmlValue, FALSE, FALSE)))
   )
 }
 
@@ -134,6 +138,7 @@ getCityPosts <- function(city, subcl="ppp"){
 }
 
 # postcity <- getCityPosts(craigslistURLs[100,"url"])
+# postcity <- getCityPosts(craigslistURLs[sample( 1:300, 1),"url"])
 
 
 AllCraigslistURLs <- craigslistURLs

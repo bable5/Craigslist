@@ -140,15 +140,28 @@ source("./StatePop.R")
 
 library(multicore)
 
-samplecities <- sample(1:nrow(craigslistURLs), 80, replace=FALSE, prob=craigslistURLs$weight)
-temp <- getCityPosts(craigslistURLs[samplecities[1],"url"], subcl="ppp")
-for(i in samplecities[2:length(samplecities)]){
-  a <- getCityPosts(craigslistURLs[i,"url"], subcl="ppp")
-  if(is.data.frame(a)) temp <- rbind.fill(temp, a)
+
+SamplePosts <- function(N=80, subcl="ppp"){
+  samplecities <- sample(1:nrow(craigslistURLs), N, replace=FALSE, prob=craigslistURLs$weight)
+  temp <- getCityPosts(craigslistURLs[samplecities[1],"url"], subcl="ppp")
+  for(i in samplecities[2:length(samplecities)]){
+    a <- getCityPosts(craigslistURLs[i,"url"], subcl)
+    if(is.data.frame(a)) temp <- rbind.fill(temp, a)
+  }
+  return(temp)
 }
 
+temp <- SamplePosts()
+
+# get personal ads
 data <- read.csv("./CL-mis.csv", stringsAsFactors=TRUE)
 data <- rbind.fill(data, temp)
 data <- unique(data)
-# stopped at 353 on the US/CA urls
 write.csv(data, "CL-mis.csv", row.names=FALSE)
+
+# get for sale stuff
+temp <- SamplePosts(subcl="sss")
+data <- read.csv("./CL-sss.csv", stringsAsFactors=TRUE)
+data <- rbind.fill(data, temp)
+data <- unique(data)
+write.csv(data, "CL-sss.csv", row.names=FALSE)

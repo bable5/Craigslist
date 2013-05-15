@@ -62,16 +62,17 @@ parsePost <- function(i, city){
         return(cbind(postinfodata, linkinfo))
   return(cbind(postinfodata, linkinfo))
 }
-getCityPosts <- function(city, subcl=""){
-  url <- paste(paste(city, "/", subcl, sep=""), c("/", "/index100.html", "/index200.html"), sep="")
-  site <- try(scrape(url, follow=TRUE))
+getCityPosts <- function(city, subcl="ppp"){
+  url <- paste(city, "/", subcl, sep="")
+#   url <- paste(paste(city, "/", subcl, sep=""), c("/", "/index100.html", "/index200.html"), sep="")
+  site <- try(scrape(url=url, follow=TRUE))
   if(is.character(site)) return(data.frame(city=city, subcl=subcl))
   posts <- unlist(lapply(site, function(i) getNodeSet(i, "//*/p")[1:100]))
   postdata <- suppressWarnings(rbind.fill(lapply(posts, parsePost, city), stringsAsFactors=FALSE))
   cbind(city=city, subcl = subcl, postdata)
 }
 
-# postcity <- getCityPosts(craigslistURLs[100,3])
+postcity <- getCityPosts(craigslistURLs[100,"url"])
 
 
 AllCraigslistURLs <- craigslistURLs

@@ -1,8 +1,12 @@
 library(XML)
 url <- "http://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population"
 page <- scrape(url)[[1]]
+# read all tables
+table <- readHTMLTable(page)
+# get correct table
+tablenum <- as.numeric(which(lapply(lapply(table, dim), length)>0))[1]
+table <- table[[tablenum]]
 
-table <- readHTMLTable(page)[[3]]
 table <- apply(table, 2, function(i) gsub("(^ +)|( +$)", "", gsub("^[0]{1,6}", "", gsub("%", "", gsub("[", "", gsub("[[[:digit:]]]", "", gsub("[[:digit:]]{6}[0]{13}", "", gsub("—", "", gsub("!", "", gsub(",", "", i, fixed=TRUE), fixed=TRUE), fixed=TRUE))), fixed=TRUE)))))
 
 us.table<- data.frame(table[,3], apply(table[,c(1:2, 4:12)], 2, as.numeric), stringsAsFactors=FALSE)
@@ -15,7 +19,12 @@ us.table$percent.pop <- us.table$percent.pop/sum(us.table$percent.pop)
 url <- "http://en.wikipedia.org/wiki/List_of_Canadian_provinces_and_territories_by_population"
 page <- scrape(url)[[1]]
 
-table <- readHTMLTable(page)[[1]]
+# read all tables
+table <- readHTMLTable(page)
+# get correct table
+tablenum <- as.numeric(which(lapply(lapply(table, dim), length)>0))[1]
+table <- table[[tablenum]]
+
 table <- apply(table, 2, function(i) gsub("(^ +)|( +$)", "", gsub("^[0]{1,6}", "", gsub("%", "", gsub("[", "", gsub("[[[:digit:]]]", "", gsub("[[:digit:]]{10,12}([0]{6,7}|[9]{6,8})", "", gsub("—", "", gsub("!", "", gsub(",", "", i, fixed=TRUE), fixed=TRUE), fixed=TRUE))), fixed=TRUE)))))
 
 cn.table<- data.frame(table[,2], apply(table[,c(1, 3:10)], 2, as.numeric), stringsAsFactors=FALSE)[-14,]

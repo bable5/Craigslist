@@ -27,7 +27,7 @@ table <- table[[tablenum]]
 
 table <- apply(table, 2, function(i) gsub("(^ +)|( +$)", "", gsub("^[0]{1,6}", "", gsub("%", "", gsub("[", "", gsub("[[[:digit:]]]", "", gsub("[[:digit:]]{10,12}([0]{6,7}|[9]{6,8})", "", gsub("—", "", gsub("!", "", gsub(",", "", i, fixed=TRUE), fixed=TRUE), fixed=TRUE))), fixed=TRUE)))))
 
-cn.table<- data.frame(table[,2], apply(table[,c(1, 3:10)], 2, as.numeric), stringsAsFactors=FALSE)[-14,]
+cn.table<- suppressWarnings(data.frame(table[,2], apply(table[,c(1, 3:10)], 2, as.numeric), stringsAsFactors=FALSE)[-14,])
 cn.table <- cn.table[, c(1, 4, 10)]
 names(cn.table) <- c("locale", "percent.pop", "pop")
 cn.table$percent.pop <- cn.table$percent.pop/sum(cn.table$percent.pop)

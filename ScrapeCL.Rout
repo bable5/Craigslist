@@ -59,52 +59,37 @@ Loading required package: bitops
 > craigslistURLs$region <- region.name
 > craigslistURLs$url[which(craigslistURLs$region=="CA")] <- gsub(".craigslist.ca", "en.craigslist.ca", craigslistURLs$url[which(craigslistURLs$region=="CA")])
 > 
-> parsePost <- function(i, city){
-+   linkinfo <- try({
-+     kids <- xmlChildren(i)
-+     pagelinkattrs <- data.frame(t(xmlAttrs(i)), stringsAsFactors=FALSE)
-+     pagelink <- paste(city, as.character(xmlAttrs(getNodeSet(i, "a[@class='i']")[[1]]))[1], sep="")
-+     pagelinkclass <- t(data.frame(t(sapply(which(names(kids)=="span"), function(j) unlist(c(xmlAttrs(kids[[j]]), xmlValue(kids[[j]])))[1:2])), row.names=1))
-+     data.frame(pagelinkattrs, link=pagelink, pagelinkclass, stringsAsFactors=FALSE)
-+   })
-+   postinfodata <- try({
-+     postinfo <- scrape(pagelink, follow=TRUE)
-+     emailreply <- xmlValue(sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="dateReplyBar"]/div[@class="returnemail"]')[[1]])
-+     #     emailreply <- if(length(emails)>0) as.character(lapply(emails, xmlValue, FALSE, FALSE))
-+     dateposted <- as.character(lapply(sapply(postinfo, getNodeSet, 
-+                                              '//*[@id="pagecontainer"]/section/section[@class="dateReplyBar"]/p[@class="postinginfo"]/date'), 
-+                                       xmlValue, FALSE, FALSE))
-+     
-+     imgs <- sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="userbody"]/figure/div[@id="thumbs"]/a')
-+     if(length(unlist(imgs))>0)   imglink <- data.frame(do.call("rbind", lapply(imgs, xmlAttrs, FALSE, FALSE)), stringsAsFactors=FALSE) else imglink <- data.frame(NA, NA)  
-+     names(imglink) <- c("ImageLink", "ImageTitle")
-+     text <- as.character(lapply(sapply(postinfo, getNodeSet, '//*/section[@id="postingbody"]'), xmlValue, FALSE, FALSE))
-+     title <- as.character(lapply(sapply(postinfo, getNodeSet, '//*/h2[@class="postingtitle"]'), xmlValue, FALSE, FALSE))
-+     id <- strsplit(as.character(lapply(sapply(postinfo, getNodeSet, '//*/div[@class="postinginfos"]/p[@class="postinginfo"][1]'), xmlValue, FALSE, FALSE)), ": ")[[1]][2]
-+     data.frame(email=emailreply, datetime=dateposted, imglink, postText=text, postTitle=title, postID=id, stringsAsFactors=FALSE)
-+   })
-+   if(is.character(postinfodata) & is.character(linkinfo)) return(data.frame()) else
-+     if(is.character(postinfodata) & !is.character(linkinfo)) return(linkinfo) else
-+       if(!is.character(postinfodata) & is.character(linkinfo)) return(postinfodata) else
-+         return(cbind(postinfodata, linkinfo))
-+   return(cbind(postinfodata, linkinfo))
+> # get link to post
+> getpagelink <- function(i, city){try(
++   paste(city, as.character(xmlAttrs(getNodeSet(i, "a[@class='i']")[[1]]))[1], sep=""))
 + }
-> getCityPosts <- function(city, subcl=""){
-+   url <- paste(paste(city, "/", subcl, sep=""), c("/", "/index100.html", "/index200.html"), sep="")
-+   site <- try(scrape(url, follow=TRUE))
-+   if(is.character(site)) return(data.frame(city=city, subcl=subcl))
-+   posts <- unlist(lapply(site, function(i) getNodeSet(i, "//*/p")[1:100]))
-+   postdata <- suppressWarnings(rbind.fill(lapply(posts, parsePost, city), stringsAsFactors=FALSE))
-+   cbind(city=city, subcl = subcl, postdata)
+> # get class attr, value for page link
+> getpagelinkclass <- function(kids){try(
++   t(data.frame(t(sapply(
++     which(names(kids)=="span"), 
++     function(j) unlist(c(xmlAttrs(kids[[j]]), 
++                          xmlValue(kids[[j]])))[1:2])), row.names=1))
++   )
 + }
 > 
-> # postcity <- getCityPosts(craigslistURLs[100,3])
+> # get reply email, if present
+> getpostemail <- function(postinfo){try(
++   xmlValue(sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="dateReplyBar"]/div[@class="returnemail"]')[[1]]))
++ }
 > 
+> # get post date
+> getpostdate <- function(postinfo){try(
++   as.character(lapply(sapply(postinfo, getNodeSet, 
++                '//*[@id="pagecontainer"]/section/section[@class="dateReplyBar"]/p[@class="postinginfo"]/date'), 
++                       xmlValue, FALSE, FALSE))
++ )
++ }
 > 
-> AllCraigslistURLs <- craigslistURLs
-> craigslistURLs <- craigslistURLs[which(craigslistURLs$region%in%c("US", "CA")),]
-> source("./StatePop.R")
-Error in apply(table, 2, function(i) gsub("(^ +)|( +$)", "", gsub("^[0]{1,6}",  : 
-  dim(X) must have a positive length
-Calls: source -> source -> withVisible -> eval -> eval -> apply
+> # get images
+> getpostimages <- function(postinfo){try(
++   imgs <- sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="userbody"]/figure/div[@id="thumbs"]/a')
++   if(length(unlist(imgs))>0){
+Error: unexpected 'if' in:
+"  imgs <- sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="userbody"]/figure/div[@id="thumbs"]/a')
+  if"
 Execution halted

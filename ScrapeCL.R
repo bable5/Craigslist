@@ -59,8 +59,9 @@ getpostdate <- function(postinfo){try(
 }
 
 # get images
-getpostimages <- function(postinfo){try(
-  imgs <- sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="userbody"]/figure/div[@id="thumbs"]/a')
+getpostimages <- function(postinfo){
+  try(imgs <- sapply(postinfo, getNodeSet, '//*[@id="pagecontainer"]/section/section[@class="userbody"]/figure/div[@id="thumbs"]/a'))
+  try({
   if(length(unlist(imgs))>0){
     imglink <- data.frame(do.call("rbind", 
                     lapply(imgs, xmlAttrs, FALSE, FALSE)), 
@@ -68,7 +69,8 @@ getpostimages <- function(postinfo){try(
   } else imglink <- data.frame(NA, NA)  
   names(imglink) <- c("ImageLink", "ImageTitle")
   return(imglink)
-)
+  })
+  
 return(data.frame(ImageLink=NA, ImageTitle=NA))
 }
 

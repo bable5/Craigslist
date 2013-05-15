@@ -122,8 +122,8 @@ parsePost <- function(i, city){
   return(cbind(postinfodata, linkinfo))
 }
 getCityPosts <- function(city, subcl="ppp"){
-  url <- paste(city, "/", subcl, sep="")
-#   url <- paste(paste(city, "/", subcl, sep=""), c("/", "/index100.html", "/index200.html"), sep="")
+#   url <- paste(city, "/", subcl, sep="") # debugging - makes shorter runs
+  url <- paste(paste(city, "/", subcl, sep=""), c("/", "/index100.html", "/index200.html"), sep="")
   site <- try(scrape(url=url, follow=TRUE))
   if(is.character(site)) return(data.frame(city=city, subcl=subcl))
   posts <- unlist(lapply(site, function(i) getNodeSet(i, "//*/p")[1:100]))

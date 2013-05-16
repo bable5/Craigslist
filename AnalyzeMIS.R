@@ -41,7 +41,7 @@ data$lat <- rowSums(cbind(data$lat, data$data.latitude), na.rm=TRUE)
 data$lat[data$lat==0] <- NA
 data$long <- rowSums(cbind(data$long, data$data.longitude), na.rm=TRUE)
 data$long[data$long==0] <- NA
-data <- data[,-c("data.longitude", "data.latitude")]
+data <- data[,-which(names(data) %in% c("data.longitude", "data.latitude"))]
 
 
 # get rid of all NA columns
@@ -53,13 +53,15 @@ qplot(data=cor.melt, x=Var1, y=Var2, geom="tile", fill=value) +
   scale_fill_gradient2(limits=c(-1.1,1.1))
 cor.melt[which(cor.melt$value< -0.5),]
 
-# parse postTitle
-data$postCategory <- sapply(data$postTitle, function(i) 
-                            strsplit(i, ' - ')[[1]][2])
-
+data$postCategory <- data$itemcg
 data$age <- as.numeric(sapply(data$postTitle, function(i) 
             strsplit(strsplit(i, ' - ')[[1]][3], " (", fixed=TRUE)[[1]][1]))
-data$location <- sapply(data$postTitle, function(i) gsub(")", "", 
-                             strsplit(i, ' (', fixed=TRUE)[[1]][2],
-                             fixed=TRUE))
+data$location <- gsub(")", "", gsub("(", "", gsub(" )", "", data$itempn, fixed=TRUE), fixed=TRUE))
 
+data <- data[,-(names(data)%in%c("itemcg", "itempn"))]
+
+# clean up weird columns
+data$ih[which(data$ih==" ")] <- NA
+data <- data[,-which(names(data)=="itemsep")]
+data$i[which(data$i==" ")] <- NA
+# itempp is similar to age but not always the same. 

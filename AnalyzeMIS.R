@@ -65,3 +65,5 @@ data$ih[which(data$ih==" ")] <- NA
 data <- data[,-which(names(data)=="itemsep")]
 data$i[which(data$i==" ")] <- NA
 # itempp is similar to age but not always the same. 
+
+#itempnr has location ish stuff.... for replicating map

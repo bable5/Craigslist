@@ -17,3 +17,5 @@ timezones$offset <- sgn*as.numeric(str_sub(timezones$offset, 2, -1))
 objs2 <- ls()
 objs <- c(objs, "timezones")
 rm(list=objs2[!objs2%in%objs])
+
+write.csv(timezones, "timezones.csv")

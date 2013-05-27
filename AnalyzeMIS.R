@@ -7,10 +7,11 @@ library(stringr)
 library(ggplot2)
 
 # setwd("/home/susan/Dropbox/GraphicsGroup/Craigslist/")
-source("./timezones.R")
+# source("./timezones.R")
+timezones <- read.csv("timezones.csv")
 timezones.conv <- unique(timezones[,c("Abbr.", "trunc")])
 
-url <- "http://www.craigslist.org/about/sites"
+# url <- "http://www.craigslist.org/about/sites"
 
 data <- read.csv("./CL-mis.csv", stringsAsFactors=FALSE)
 data <- apply(data, 2, str_trim)
@@ -62,8 +63,24 @@ data <- data[,-(names(data)%in%c("itemcg", "itempn"))]
 
 # clean up weird columns
 data$ih[which(data$ih==" ")] <- NA
-data <- data[,-which(names(data)=="itemsep")]
-data$i[which(data$i==" ")] <- NA
-# itempp is similar to age but not always the same. 
+if("itemsep"%in%names(data)) data <- data[,-which(names(data)=="itemsep")]
 
-#itempnr has location ish stuff.... for replicating map
+# get rid of single-character img links
+idx <- which(str_length(data$i)==1 & !is.na(data$i))
+if(length(idx)>0) data$i[idx] <- NA
+rm(list="idx")
+
+# itempp is similar to age but not always the same. 
+# itempnr has location ish stuff.... for replicating map
+# itemcg is craigslist posted to
+
+
+alldata <- data # make a backup copy
+
+data <- unique(data[,-which(names(data)%in%c("ImageLink", "ImageTitle", "ih", "i"))])
+data$postTitleOnly <- unlist(mclapply(data$postTitle, function(i) strsplit(i, " - ")[[1]][1]))
+
+words <- tolower(unlist(strsplit(data$postTitleOnly, " ")))
+words2 <- words[grepl("\\w", words)]
+wordfreq <- table(words2)
+wordfreq[order(wordfreq, decreasing=TRUE)][1:100]

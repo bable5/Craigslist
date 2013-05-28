@@ -3996,3 +3996,4 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 *** glibc detected *** /usr/lib/R/bin/exec/R: realloc(): invalid next size: 0x00000001049cfe00 ***
+Killed

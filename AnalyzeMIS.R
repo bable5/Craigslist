@@ -85,4 +85,4 @@ words2 <- words[grepl("\\w", words)]
 wordfreq <- table(words2)
 wordfreq[order(wordfreq, decreasing=TRUE)][1:100]
 
-wordmatrix <- mclapply(words2, function(i) grepl(i, data$postTitleOnly))
+wordmatrix <- do.call("rbind", mclapply(words2, function(i) as.numeric(grepl(i, data$postTitleOnly, fixed=TRUE))))

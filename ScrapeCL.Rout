@@ -234,6 +234,38 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in value == defs : 'value' is missing
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
@@ -244,151 +276,6 @@ Error in UseMethod("xmlValue") :
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
 Error in value == defs : 'value' is missing
-Error in value == defs : 'value' is missing
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -510,6 +397,167 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
+Error in value == defs : 'value' is missing
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -519,7 +567,63 @@ Error in UseMethod("xmlValue") :
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
 Error in value == defs : 'value' is missing
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in value == defs : 'value' is missing
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 

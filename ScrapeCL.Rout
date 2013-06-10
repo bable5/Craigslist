@@ -234,14 +234,6 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in value == defs : 'value' is missing
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
@@ -252,111 +244,6 @@ Error in UseMethod("xmlValue") :
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
 Error in value == defs : 'value' is missing
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in value == defs : 'value' is missing
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -454,7 +341,79 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in value == defs : 'value' is missing
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in value == defs : 'value' is missing
 Error in value == defs : 'value' is missing
 Error in UseMethod("xmlAttrs", node) : 
@@ -465,44 +424,8 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
-> 
-> # get personal ads
-> data <- read.csv("./CL-mis.csv", stringsAsFactors=TRUE)
-> data <- rbind.fill(data, temp)
-> data <- unique(data)
-> write.csv(data, "CL-mis.csv", row.names=FALSE)
-> 
-> # get for sale stuff
-> temp <- SamplePosts(subcl="sss")
+Error in value == defs : 'value' is missing
 
  *** caught segfault ***
-address 0x200000012, cause 'memory not mapped'
-
-Traceback:
- 1: simpleError(msg)
- 2: makeXMLError(msg, code, domain, line, col, level, filename, class)
- 3: (function (msg, code, domain, line, col, level, filename, class = "XMLError") {    e = makeXMLError(msg, code, domain, line, col, level, filename,         class)    dom = names(e$domain)    class(e) = c(names(e$code), sprintf("%s_Error", gsub("_FROM_",         "_", dom)), class(e))    if (e$code == xmlParserErrors["XML_IO_LOAD_ERROR"])         stop(e)})("Tag date invalid\n", 801L, 5L, 111L, 62L, 2L, character(0))
- 4: .Call("RS_XML_ParseTree", as.character(file), handlers, as.logical(ignoreBlanks),     as.logical(replaceEntities), as.logical(asText), as.logical(trim),     as.logical(validate), as.logical(getDTD), as.logical(isURL),     as.logical(addAttributeNamespaces), as.logical(useInternalNodes),     as.logical(isHTML), as.logical(isSchema), as.logical(fullNamespaceInfo),     as.character(encoding), as.logical(useDotNames), xinclude,     error, addFinalizer, as.integer(options), as.logical(parentFirst),     PACKAGE = "XML")
- 5: FUN("<!DOCTYPE html>\n<html>\n<head>\n\t<title>Want Swimmer Build 4 Dad</title>\n\t<meta name=\"robots\" content=\"NOARCHIVE,NOFOLLOW\">\n\t<meta name=\"viewport\" content=\"initial-scale=1.0, user-scalable=1\">\n\t<link type=\"text/css\" rel=\"stylesheet\" media=\"all\" href=\"http://www.craigslist.org/styles/clnew.css?v=1618abeceeda330eeebfea09e0d0d813\">\n\t\n\t<!--[if lt IE 9]>\n<script type=\"text/javascript\" src=\"http://www.craigslist.org/js/html5shiv.js?v=ed7af45dcbda983c8455631037ebcdda\"></script>\n<![endif]-->\n</head>\n\n<body class=\"posting\">\n\t<script type=\"text/javascript\"><!--\n\tvar pagetype;\n\tfunction C(k){return(document.cookie.match('(^|; )'+k+'=([^;]*)')||0)[2]}\n\tvar fmt = C('cl_fmt');\n\tvar b = document.body;\n\tpagetype = b.className;\n\tif (fmt !== '') { b.className += \" \" + fmt; }\n\tvar width = window.innerWidth || document.documentElement.clientWidth;\n\tif (width > 1000) { b.className += ' w1024'; }\n\tvar mode = C('cl_img');\n\tif (mode !== '') { b.className += \" \" + mode; }\n--></script>\n\n\n\t<article id=\"pagecontainer\">\n\t\t\t<header class=\"bchead\">\n\t<div class=\"contents closed\">\n\t\t<div class=\"topright_box\">\n\t\t\t<div id=\"favorites\" class=\"highlight\">\n    <a href=\"#\"><span class=\"n\">0</span> favorites</a>\n</div>\n\n\t\t</div>\n\t\t<div class=\"dropdown down\">&or;</div>\n\t\t<div class=\"dropdown up\">&and;</div>\n\t\t<div class=\"leftside\">\n            <button class=\"back\">&lt;</button>\n            <div class=\"breadbox\">\n                <div class=\"breadcrumbs\">\n\t            \t<span class=\"crumb\"><a href=\"//www.craigslist.org/about/sites\">CL</a></span>  <span class=\"crumb\"><a href=\"http://panamacity.craigslist.org/\">panama city, FL</a></span>   <span class=\"crumb\"> <a href=\"http://panamacity.craigslist.org/ppp/\">all personals</a></span> <span class=\"crumb\"><a href=\"http://panamacity.craigslist.org/rnr/\">rants &amp; raves</a></span>\n                </div>\n            </div>\n\t\t</div>\n\t</div>\n</header>\n\n\t\t<section class=\"body\">\n\t\t\t<section class=\"dateReplyBar\">\n\t\n\t\t<script type=\"text/javascript\"><!--\n\t\t\tvar isPreview = \"\";\nvar postingTitle = \"Want Swimmer Build 4 Dad (PCB- PC)\";\nvar bestOf = \"\";\nvar postingURL = \"http%3A%2F%2Fpanamacity.craigslist.org%2Frnr%2F3843897035.html\";\nvar displayEmail = \"d3jbm-3843897035@pers.craigslist.org\";\n\n\t\t--></script>\n\t\n\n<button class=\"reply_button\">Reply</button>\n\n<span class=\"replytext\">Reply to:</span> <a href=\"mailto:d3jbm-3843897035@pers.craigslist.org?subject=Want%20Swimmer%20Build%204%20Dad%20(PCB-%20PC)&amp;body=%0A%0Ahttp%3A%2F%2Fpanamacity.craigslist.org%2Frnr%2F3843897035.html%0A\">d3jbm-3843897035@pers.craigslist.org</a>\n<div class=\"returnemail\"> </div>\n\n\n\t<aside class=\"flags\">\n\t<span class=\"flagChooser\" class=\"tsb\">\n\t\tflag <sup>[<a href=\"//www.craigslist.org/about/help/flags_and_community_moderation\">?</a>]</sup> :\n\t\t<a data-flag=\"16\" href=\"https://post.craigslist.org/flag?flagCode=16&amp;postingID=3843897035\"\n\t\t\ttitle=\"Wrong category, wrong site, discusses another post, or otherwise misplaced\">\n\t\t\tmiscategorized</a>\n\t\t<a data-flag=\"28\" href=\"https://post.craigslist.org/flag?flagCode=28&amp;postingID=3843897035\"\n\t\t\ttitle=\"Violates craigslist Terms Of Use or other posted guidelines\">\n\t\t\tprohibited</a>\n\t\t<a data-flag=\"15\" href=\"https://post.craigslist.org/flag?flagCode=15&amp;postingID=3843897035\"\n\t\t\ttitle=\"Posted too frequently, in multiple cities/categories, or is too commercial\">\n\t\t\tspam</a>\n\t\t<a data-flag=\"9\" href=\"https://post.craigslist.org/flag?flagCode=9&amp;postingID=3843897035\"\n\t\t\ttitle=\"Should be considered for inclusion in the Best-Of-Craigslist\">\n\t\t\tbest of</a>\n\t</span>\n</aside>\n\n\t\t<p class=\"postinginfo\">Posted: <date title=\"1370143311000\">2013-06-01, 11:21PM EDT</date></p>\n</section>\n\n<h2 class=\"postingtitle\">\n  <span class=\"star\"></span>\n  Want Swimmer Build 4 Dad (PCB- PC)\n</h2>\n<section class=\"userbody\">\n\n\t \n\n\t\n\t<section id=\"postingbody\">\n\t\tYounger Boi  Very Discreetb Safe Sane  ddf gl Love Slow Play no Blow n Go  Dad will keep his boy Happy\n\t</section>\n\t<section class=\"cltags\"><!-- START CLTAGS -->\n<ul class=\"blurbs\">\n<li> <!-- CLTAG GeographicArea=PCB- PC -->Location: PCB- PC</li>\n<li>it's NOT ok to contact this poster with services or other commercial interests</li></ul><!-- END CLTAGS -->\n</section>\n\t<div class=\"postinginfos\">\n\t\t<p class=\"postinginfo\">Posting ID: 3843897035</p>\n\t\t<p class=\"postinginfo\">Posted: <date title=\"1370143311000\">2013-06-01, 11:21PM EDT</date></p>\n\t\t<p class=\"postinginfo\">Updated: <date title=\"1370716292000\">2013-06-08,  2:31PM EDT</date></p>\n\t\t\t   <p class=\"postinginfo\"><a href=\"https://accounts.craigslist.org/eaf?postingID=3843897035&amp;token=U2FsdGVkX18zNDQwMzQ0MMeVPlt4ywPu0a1TMHDm1639-rQiUYbVojO2ue39LJcLzoysf-1d1hin8X9aLUZxWgS9u0AiW4-q\" class=\"tsb\">email to a friend</a></p>\n\t</div>\n</section>\n\n<aside class=\"tsb\">\n\t<p><a href=\"//www.craigslist.org/about/help/exploitation_of_minors\">\n\t  Please report suspected exploitation of minors to the appropriate authorities\n\t</a></p>\n</aside>\n\n\n\n\n\t\t</section>\n\t\t\t<ul id=\"fmtsel\">\n\t<li><b>FORMAT:</b></li>\n\t<li class=\"fsel\" data-mode=\"mobile\">mobile</li>\n\t<li class=\"fsel\" data-mode=\"regular\">regular</li>\n</ul>\n\n<footer>\n\t\n\t<ul class=\"clfooter\">\n\t\t<li>&copy; 2013 craigslist</li>\n\t\t<li><a href=\"//www.craigslist.org/about/help/\">help</a></li>\n\t\t<li><a href=\"//www.craigslist.org/about/terms.of.use\">terms</a></li>\n\t\t<li><a href=\"//www.craigslist.org/about/privacy.policy\">privacy</a></li>\n\t\t<li><a href=\"//www.craigslist.org/about/scams\">safety</a></li>\n\t\t<li><a href=\"https://forums.craigslist.org/?forumID=8\">feedback</a></li>\n\t\t<li><a href=\"//www.craigslist.org/about/\">about</a></li>\n\t\t<li><a href=\"//www.craigslist.org/about/craigslist_is_hiring\" style=\"color: #0b0\">cl jobs</a></li>\n\t</ul>\n</footer>\n\n\t</article>\n\n\t\n\t\t<script type=\"text/javascript\"><!--\n\t\t\tvar pID = \"3843897035\";\nvar wwwurl = \"http://www.craigslist.org\";\n\n\t\t--></script>\n\t\n\t<script type=\"text/javascript\" src=\"http://www.craigslist.org/js/jquery-1.9.1.js?v=56eaef3b8a28d9d45bb4f86004b0eaae\"></script>\n\t<script type=\"text/javascript\" src=\"http://www.craigslist.org/js/jquery.timeago.js?v=671b8704b14bcebf0881aa5c3f06401b\"></script>\n\t<script type=\"text/javascript\" src=\"http://www.craigslist.org/js/swipe.js?v=44444e514b6fd1a73f9ed8019ba4aa84\"></script>\n\t<script type=\"text/javascript\" src=\"http://www.craigslist.org/js/postings.js?v=b17a7bf5ec42baf99fa171a6fe3de6ad\"></script>\n\t<script type=\"text/javascript\" src=\"http://www.craigslist.org/js/localstorage.js?v=dc71e9bc7ca6c8ccdc60b33b8b22b699\"></script>\n\t<script type=\"text/javascript\" src=\"http://www.craigslist.org/js/formats.js?v=1eec461f1f94ef8f90ea4002a264dc42\"></script>\n\n\t<![if gte IE 8]>\n\t\t<script type=\"text/javascript\" src=\"http://www.craigslist.org/js/favorites.js?v=a0c5ed5cf33405e33fb68769933e8557\"></script>\n\t<![endif]>\n\t\n\t\n\t\n</body>\n</html>\n\n"[[1L]],     ...)
- 6: lapply(X = X, FUN = FUN, ...)
- 7: sapply(sourceCode, htmlParse, asText = TRUE)
- 8: eval(expr, envir, enclos)
- 9: eval(expr, pf)
-10: withVisible(eval(expr, pf))
-11: evalVis(expr)
-12: capture.output(returnThis <- sapply(sourceCode, htmlParse, asText = TRUE))
-13: scrape(pagelink, follow = TRUE)
-14: doTryCatch(return(expr), name, parentenv, handler)
-15: tryCatchOne(expr, names, parentenv, handlers[[1L]])
-16: tryCatchList(expr, classes, parentenv, handlers)
-17: tryCatch(expr, error = function(e) {    call <- conditionCall(e)    if (!is.null(call)) {        if (identical(call[[1L]], quote(doTryCatch)))             call <- sys.call(-4L)        dcall <- deparse(call)[1L]        prefix <- paste("Error in", dcall, ": ")        LONG <- 75L        msg <- conditionMessage(e)        sm <- strsplit(msg, "\n")[[1L]]        w <- 14L + nchar(dcall, type = "w") + nchar(sm[1L], type = "w")        if (is.na(w))             w <- 14L + nchar(dcall, type = "b") + nchar(sm[1L],                 type = "b")        if (w > LONG)             prefix <- paste0(prefix, "\n  ")    }    else prefix <- "Error : "    msg <- paste0(prefix, conditionMessage(e), "\n")    .Internal(seterrmessage(msg[1L]))    if (!silent && identical(getOption("show.error.messages"),         TRUE)) {        cat(msg, file = stderr())        .Internal(printDeferredWarnings())    }    invisible(structure(msg, class = "try-error", condition = e))})
-18: try({    postinfo <- scrape(pagelink, follow = TRUE)    data.frame(email = getpostemail(postinfo), datetime = getpostdate(postinfo),         getpostimages(postinfo), postText = getposttext(postinfo),         postTitle = getposttitle(postinfo), postID = getpostid(postinfo),         stringsAsFactors = FALSE)})
-19: FUN(X[[139L]], ...)
-20: lapply(posts, parsePost, city)
-21: rbind.fill(lapply(posts, parsePost, city), stringsAsFactors = FALSE)
-22: withCallingHandlers(expr, warning = function(w) invokeRestart("muffleWarning"))
-23: suppressWarnings(rbind.fill(lapply(posts, parsePost, city), stringsAsFactors = FALSE))
-24: getCityPosts(craigslistURLs[samplecities[1], "url"], subcl = "ppp")
-25: SamplePosts(subcl = "sss")
-aborting ...
+address (nil), cause 'unknown'
 Segmentation fault (core dumped)

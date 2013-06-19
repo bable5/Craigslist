@@ -186,7 +186,6 @@ Loading required package: bitops
 + }
 > 
 > temp <- SamplePosts()
-Error in value == defs : 'value' is missing
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -243,48 +242,6 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in value == defs : 'value' is missing
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in value == defs : 'value' is missing
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -318,7 +275,6 @@ Error in UseMethod("xmlValue") :
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
 Error in value == defs : 'value' is missing
-Error in value == defs : 'value' is missing
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -327,15 +283,6 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in value == defs : 'value' is missing
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -466,14 +413,7 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
+Error in value == defs : 'value' is missing
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -539,6 +479,14 @@ Error in UseMethod("xmlValue") :
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
 Error in value == defs : 'value' is missing
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -564,6 +512,7 @@ Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = strin
 > 
 > # get for sale stuff
 > temp <- SamplePosts(subcl="sss")
+Error in value == defs : 'value' is missing
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -782,8 +731,32 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -1312,6 +1285,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -1506,14 +1487,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -1764,80 +1737,24 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -1966,6 +1883,72 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -2136,15 +2119,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in strsplit(headers, "\r\n") : non-character argument
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -2153,6 +2135,12 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -2211,6 +2199,12 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -2235,14 +2229,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -2589,7 +2575,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in strsplit(headers, "\r\n") : non-character argument
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -2710,6 +2695,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -3036,14 +3029,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -3094,14 +3079,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -3234,160 +3211,50 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -3396,6 +3263,162 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -3556,15 +3579,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in strsplit(headers, "\r\n") : non-character argument
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -3693,14 +3707,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -3759,6 +3765,7 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in value == defs : 'value' is missing
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -3797,14 +3804,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -3887,80 +3886,8 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -4127,6 +4054,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -4167,22 +4102,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -4241,34 +4160,10 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -4319,18 +4214,11 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in value == defs : 'value' is missing
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -4381,28 +4269,12 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -4441,6 +4313,7 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in value == defs : 'value' is missing
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -4821,7 +4694,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in strsplit(headers, "\r\n") : non-character argument
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -5018,7 +4890,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in strsplit(headers, "\r\n") : non-character argument
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -5269,6 +5140,7 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in value == defs : 'value' is missing
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -5385,30 +5257,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -5453,6 +5301,45 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in value == defs : 'value' is missing
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
 Error in UseMethod("xmlAttrs", node) : 
   no applicable method for 'xmlAttrs' applied to an object of class "NULL"
 Error in UseMethod("xmlValue") : 
@@ -5461,6 +5348,34 @@ Error in UseMethod("xmlValue") :
   no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
 Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
   cannot coerce class ""try-error"" to a data.frame
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
+Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
+  subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -5541,14 +5456,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -5633,8 +5540,24 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -5799,64 +5722,8 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -5887,14 +5754,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -5949,14 +5808,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -6023,14 +5874,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -6759,14 +6602,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -7143,6 +6978,8 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in value == defs : 'value' is missing
+Error in value == defs : 'value' is missing
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -7261,6 +7098,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -7283,6 +7128,7 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in value == defs : 'value' is missing
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -7905,6 +7751,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -8203,7 +8057,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in strsplit(headers, "\r\n") : non-character argument
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -8212,8 +8065,40 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -8344,14 +8229,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -8418,6 +8295,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -8446,6 +8331,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -8458,6 +8351,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -8484,6 +8385,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -8522,6 +8431,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -8802,6 +8719,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -8856,38 +8781,6 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
-Error in UseMethod("xmlAttrs", node) : 
-  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in UseMethod("xmlValue") : 
-  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
-Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
-  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -9016,6 +8909,7 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in value == defs : 'value' is missing
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -9030,6 +8924,14 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
+Error in UseMethod("xmlAttrs", node) : 
+  no applicable method for 'xmlAttrs' applied to an object of class "NULL"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in UseMethod("xmlValue") : 
+  no applicable method for 'xmlValue' applied to an object of class "XMLNodeSet"
+Error in as.data.frame.default(x[[i]], optional = TRUE, stringsAsFactors = stringsAsFactors) : 
+  cannot coerce class ""try-error"" to a data.frame
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
   subscript out of bounds
 Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1]/a")[[1]] : 
@@ -9217,4 +9119,4 @@ Error in getNodeSet(postinfo[[1]], "//*[@id=\"pagecontainer\"]/section/section[1
 > 
 > proc.time()
      user    system   elapsed 
- 3055.978    39.434 18047.837 
+ 3190.607    35.382 25848.523 

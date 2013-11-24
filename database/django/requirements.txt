@@ -1,0 +1,5 @@
+-e git+http://github.com/django/django.git@37faf12e66a74642d73639569225c95e400bbae2#egg=Django-dev
+django-adaptors==0.2.5
+django-devserver==0.6.2
+lxml==3.2.4
+coverage==3.6

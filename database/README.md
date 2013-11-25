@@ -14,8 +14,19 @@ to install pip.
 Run
 
     $> sudo pip install virtualenv
+    $> sudo pip install virtualenvwrapper
 
-to install virtualenv.
+to install virtualenv and a set of helper/wrapper scripts.
+
+Add the lines:
+
+    $> export WORKON_HOME=~/.Envs
+    $> mkdir -p $WORKON_HOME
+    $> source /usr/local/bin/virtualenvwrapper.sh
+
+to your <code>~/.bashrc</code> or <code>~/.bash_aliases</code> file.
+Open a new terminal or source your <code>~/.bashrc</code> to pick up the
+environment changes.
 
 Create a new virtual environment for the project with
 

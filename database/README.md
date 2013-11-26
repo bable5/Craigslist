@@ -50,7 +50,7 @@ will create the database.
 
 Import new personal ads csv data with:
 
-    $> python manage.py load_csv -f path/to/file
+    $> python manage.py load_personal_ads -f path/to/file
 
 Run the server:
 
